@@ -1,60 +1,45 @@
-# Ferns And Petals Store Data Analysis in Excel 
-## 📖 Overview
-This project demonstrates a complete end-to-end data analysis workflow in **Microsoft Excel**, including **Power Query**, **Data Modeling**, **Pivot Tables**, and **DAX**.
+# Ferns & Petals Sales Analysis | Excel
 
-The dataset represents e-commerce transactions and helps answer key business questions related to **revenue performance**, **top-selling products**, **customer behavior**, and **sales trends**.
+An end-to-end **sales data analysis project using Microsoft Excel**, focused on understanding revenue, products, customers, delivery performance, and sales trends for Ferns & Petals (FNP).
 
-This project is fully explained in **Arabic**, making it one of the few comprehensive Arabic Excel analytics tutorials on YouTube.
+## 📊 Dashboard
 
----
+![Ferns & Petals Sales Analysis Dashboard](https://github.com/alialaa0/Ferns_And_Petals_Data_Analysis_with_Excel/blob/main/Dashboard.png)
 
-## 📁 Files Included
-- `Dataset` – Contains all datasets (Orders, Customers, Products, etc.)
-- `Final Dashboard Screenshot.png` – Snapshot of the completed dashboard
-- `README.md` – Project documentation
+## 🎯 Business Problem
 
----
+Ferns & Petals is an e-commerce business selling gifts for occasions such as Diwali, Raksha Bandhan, Holi, Valentine's Day, birthdays, and anniversaries.
 
-## 📊 Key Features
-- Data cleaning & transformation using **Power Query**
-- Custom calculated columns:
-  - `Revenue = Price × Quantity`
-  - `Delivery Days = Delivery_Date - Order_Date`
-- Time-based insights (Month, Hour)
-- Data modeling with table relationships
-- Interactive dashboards using **Pivot Tables**, **Charts**, and **Slicers**
-- Business KPIs:
-  - Total Revenue  
-  - Average Delivery Time  
-  - Top Products by Sales  
-  - Monthly Sales Trends  
-  - Customer Spending Patterns
+The goal of this analysis is to turn transactional data into insights that can support **sales strategy, product decisions, customer understanding, and delivery performance**.
 
----
+## 🔍 Key Business Questions
 
-## 🧠 Skills Practiced
-- Power Query Editor  
-- Data Modeling (Relationships)  
-- Pivot Tables & Charts  
-- DAX Functions in Power Pivot  
-- Dashboard Design  
-- Correlation & Trend Analysis  
+- What is the **total revenue**?
+- How long does it take to deliver orders on average?
+- How do **monthly sales** perform?
+- Which products generate the highest revenue?
+- What is the average customer spending?
+- How do the **top 5 products** perform over time?
+- Which **10 cities** have the highest number of orders?
+- Does order quantity affect delivery time?
+- Which occasions generate the highest revenue?
+- Which products are most popular for each occasion?
 
----
+## 🛠️ Data Analysis Process
 
-## 🙌 Author
-**Ali Alaa**  
-Data Analyst & Excel Enthusiast  
-🔗 linkedin : https://www.linkedin.com/in/3li-3laa/
-
----
-
-## ⭐ License
-Open for **learning and practice purposes**.  
-Feel free to reuse or modify for your personal learning projects.
-
----
-
-## 📬 Feedback
-If you found this helpful, please ⭐ the repo and share the tutorial with your friends!
-
+```text
+Raw Data
+   ↓
+Power Query
+   ↓
+Data Cleaning & Transformation
+   ↓
+Data Modeling
+   ↓
+DAX Calculations
+   ↓
+Pivot Tables & Charts
+   ↓
+Interactive Dashboard
+   ↓
+Business Insights
